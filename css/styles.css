@@ -1,3 +1,23 @@
 h1 {
     color: red;
 }
+
+.instructions {
+    width: 100%;
+    padding: 0;
+}
+
+.instructions li {
+    list-style-type: none;
+    display: block;
+    padding: 3px;
+    background-color: #cdcdcd;
+    margin-bottom: 3px;
+}
+
+.instructions li:hover {
+    background-color: #10526d;
+    color: white;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
